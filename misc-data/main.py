@@ -1,19 +1,21 @@
-def convert(number):
-    result = ''
-    if number % 3 == 0 and number % 5 == 0 and number % 7 == 0:
-        result += 'PlingPlangPlong'
-    elif number % 5 == 0 and number % 7 == 0:
-        result += 'PlangPlong'
-    elif number % 3 == 0 and number % 7 == 0:
-        result += 'PlingPlong'
-    elif number % 3 == 0 and number % 5 == 0:
-        result += 'PlingPlang'
-    elif number % 7 == 0:
-        result += 'Plong'
-    elif number % 5 == 0:
-        result += 'Plang'
-    elif number % 3 == 0:
-        result += 'Pling'
-    else:
-        result = str(number)
-    return result
+import math
+
+
+width_of_room = float(input("What is the width of the room in meters? "))
+length_of_room = float(input("What is the length of the room in meters? "))
+height_of_room = float(input("What is the height of the room in meters? "))
+surface_area_to_not_paint = float(input("\nWhat is the surface area of the room that you do not want to paint in square meters? "))
+coats_of_paint = float(input("\nHow many coats of paint do you want to apply? "))
+total = 0
+
+base_and_top = 2 * (float(width_of_room) * float(length_of_room))
+sides1 = 2 * (float(width_of_room) * float(height_of_room))
+sides2 = 2 * (float(length_of_room) * float(height_of_room))
+total = base_and_top + sides1 + sides2
+total -= surface_area_to_not_paint
+
+print("The total surface area to paint is " + str(total) + " square meters.")
+
+paint_cans = total / 11
+paint_cans = math.ceil(paint_cans)
+print(paint_cans)
