@@ -1,11 +1,19 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+body {
+  color: #444;
   font-family: sans-serif;
-  color: rgb(69, 69, 69);
+
+  border-top: 10px solid #1098ad;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
 }
 
 h1,
@@ -75,16 +83,6 @@ li {
   font-weight: bold;
 }
 
-.main-header {
-  background-color: #f7f7f7;
-}
-
-aside {
-  background-color: #f7f7f7;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
-}
-
 /* .first-li {
   font-weight: bold;
 } */
@@ -128,3 +126,7 @@ a:active {
 }
 
 /* LVHA */
+
+.text {
+  color: #f5f3f3;
+}
