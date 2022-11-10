@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/* PAGE SECTIONS */
 body {
   color: #444;
   font-family: sans-serif;
@@ -46,6 +47,7 @@ aside {
   width: 500px;
 }
 
+/* SMALLER ELEMENTS */
 h1,
 h2,
 h3 {
@@ -140,10 +142,6 @@ li:last-child {
   font-style: italic;
 }
 
-li:nth-child(even) {
-  /* color: red; */
-}
-
 /* Misconseption: this won't work */
 article p:first-child {
   color: red;
@@ -175,4 +173,9 @@ a:active {
 .post-img {
   width: 100%;
   height: auto;
+}
+
+nav a:link {
+  background-color: orangered;
+  margin: 20px;
 }
