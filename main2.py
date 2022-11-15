@@ -1,7 +1,4 @@
-attendance = input("Enter your attendance percentage: ")
-if "%" in attendance:
-    attendance = attendance.replace("%", "")
-    attendance = int(attendance)
+attendance = int(input("Enter your attendance percentage: "))
 mark = int(input("Enter your exam mark: "))
 fail = False
 if attendance > 90:
