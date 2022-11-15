@@ -1,5 +1,6 @@
-mark = int(input("Enter your exam mark: "))
 attendance = int(input("Enter your attendance percentage: "))
+mark = int(input("Enter your exam mark: "))
+fail = False
 if attendance > 90:
     if mark > 90:
         grade = "A"
