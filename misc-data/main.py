@@ -1,18 +1,15 @@
 total = 0
-old = 0
-
-while True:
-    while True:
-        part_number = input("Enter part number: ")
-        if len(part_number) != 4:
-            print("Invalid part number. Must be 4 characters long.")
-        else:
-            break
-    if part_number == "9999":
-        break
-    total += 1
-    if part_number[3] == "6" or part_number[3] == "7" or part_number[3] == "8":
-        old += 1
-
-print("Total parts: ", total)
-print("Old parts: ", old)
+average_scores = []
+for i in range(30):
+    student_score = 0
+    for j in range(3):
+        score = int(input(f"Enter the student's score for test {j+1}: "))
+        student_score += score
+    average = round(student_score / 3, 2)
+    print(f"The student's average score is {average}")
+    average_scores.append(average)
+    total += student_score
+print(f"The class average is {total/90:.2f}")
+print("Individual student scores:")
+for i in range(len(average_scores)):
+    print(f"Student {i+1}: {average_scores[i]}")
