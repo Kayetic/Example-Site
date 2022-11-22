@@ -9,7 +9,7 @@ for i in range(30):
     print(f"The student's average score is {average}")
     average_scores.append(average)
     total += student_score
-print(f"The class average is {total/90:.2f}")
+print(f"The class average is {round(total/90), 2}")
 print("Individual student scores:")
 for i in range(len(average_scores)):
     print(f"Student {i+1}: {average_scores[i]}")
