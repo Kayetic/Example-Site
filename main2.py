@@ -1,16 +1,23 @@
+def getPword(attempt):
+    if attempt == 1:
+        user_password = input("Enter your password: ")
+        if len(user_password) < 6 or len(user_password) > 8:
+            print("Password must be at least 8 characters long.")
+            return getPword(1)
+    elif attempt == 2:
+        if len(user_password) < 6 or len(user_password) > 8:
+            print("Password must be at least 8 characters long.")
+            return getPword(2)
+        user_password = input("Enter the password again: ")
+    return user_password
 
-def multiples(table, startnum, endnum):
-    for i in range(startnum, endnum + 1):
-        print(table, "x", i, "=", table * i)
-    print()
+
+def main():
+    user_password = getPword(1)
+    if user_password == getPword(2):
+        print("Password accepted.")
+    else:
+        print("Password does not match.")
 
 
-# main program
-name = input("What is your name?\n")
-print("Enter times table, start number and end number")
-user_table = int(input())
-user_startnum = int(input())
-user_endnum = int(input())
-
-print(f"Hi {name} ... here is your times table")
-multiples(user_table, user_startnum, user_endnum)
+main()
