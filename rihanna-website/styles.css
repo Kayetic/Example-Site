@@ -6,9 +6,9 @@
 
 .main-header {
   background-color: #b86c77;
-  height: 60px;
+  /* height: 60px; */
   padding: 20px 40px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   color: whitesmoke;
   font-size: 25px;
 }
@@ -26,8 +26,13 @@ a:visited {
 
 h1 {
   float: left;
+  position: relative;
 }
 
 nav {
   float: right;
+}
+
+.clear {
+  clear: both;
 }
