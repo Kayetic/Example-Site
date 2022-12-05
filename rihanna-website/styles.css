@@ -1,0 +1,33 @@
+* {
+  /* border-top: 10px solid #1098ad; */
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  background-color: #b86c77;
+  height: 60px;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  color: whitesmoke;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px;
+  font-size: 20px;
+}
+
+a:visited {
+  color: whitesmoke;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
