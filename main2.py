@@ -1,16 +1,27 @@
-import os
-import openai
+def fibonacci(n):
+    if fibonacci == 1:
+        return 1
+    else:
+        fibonacci(n) + fibonacci(n+1)
 
-openai.api_key = "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"
+# recursive fibonacci function
 
-response = openai.Completion.create(
-    model="text-davinci-003",
-    prompt="Explain hashing with an example",
-    temperature=0,
-    max_tokens=3000,
-    top_p=1,
-    frequency_penalty=0,
-    presence_penalty=0
-)
 
-print(response["choices"][0]["text"])
+def fibonacci(n):
+    if n <= 1:
+        return n
+    else:
+        return (fibonacci(n-1) + fibonacci(n-2))
+
+# main function
+
+
+def main():
+    n = int(input("Enter a number: "))
+    print("Fibonacci sequence:")
+    for i in range(n):
+        print(fibonacci(i))
+
+
+# call main function
+main()
