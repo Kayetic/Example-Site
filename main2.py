@@ -1,11 +1,4 @@
-def fibonacci(n):
-    if fibonacci == 1:
-        return 1
-    else:
-        fibonacci(n) + fibonacci(n+1)
-
-# recursive fibonacci function
-
+# Description: Fibonacci sequence
 
 def fibonacci(n):
     if n <= 1:
