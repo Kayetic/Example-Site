@@ -1,0 +1,10 @@
+nav {
+  font-family: "Playfair Display", serif;
+  background-color: aliceblue;
+  height: 50px;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
