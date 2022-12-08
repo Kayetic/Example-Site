@@ -4,15 +4,15 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* background-color: #85414b; */
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 8vh;
+  /* Change this value for height */
   min-height: 10vh;
+  /* Change this value for colour of entire navbar */
   background-color: #b86c77;
   font-family: "Playfair Display", serif;
 }
@@ -20,8 +20,8 @@ nav {
 .rihanna-text {
   color: white;
   cursor: pointer;
-  /* margin-right: auto; */
   font-size: 27px;
+  /* Change this value for the distance of the text from the left side */
   padding-left: 5vh;
   font-weight: 400;
 }
@@ -31,6 +31,7 @@ nav {
   background-color: #b86c77;
   justify-content: space-between;
   margin-right: 30px;
+  /* Change this value for space between the elements on the right of the navbar */
   width: 35%;
   list-style: none;
 }
