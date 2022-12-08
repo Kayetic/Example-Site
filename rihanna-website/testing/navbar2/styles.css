@@ -26,6 +26,10 @@ nav {
   font-weight: 400;
 }
 
+.rihanna-text:hover {
+  color: rgb(253, 210, 210);
+}
+
 .nav-links {
   display: flex;
   background-color: #b86c77;
@@ -44,6 +48,27 @@ nav {
 
 .nav-links li {
   list-style: none;
+}
+
+.image-container img {
+  display: flex;
+}
+
+.image-container img {
+  width: 100%;
+  /* background-color: aqua; */
+  padding: 50px 50px;
+  width: 50%;
+  height: 50%;
+}
+
+.nav-links li a {
+  transition: all 0.8 ease 0s;
+}
+
+.nav-links li a:hover {
+  transition: all 0.3 ease 0s;
+  color: rgb(253, 210, 210);
 }
 
 /* h1 {
