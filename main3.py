@@ -1,6 +1,1 @@
-def greeting():
-    print("Hello World!")
-    print("This is a function")
-
-
-greeting()
+# open a access database and create a table
