@@ -12,3 +12,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+print("Why do we write __name__ == '__main__' ?")
+print("Because we want to run the main() function only when we run the file directly,")
+print("and not when we import it from another file.")
