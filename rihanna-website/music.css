@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
 
 * {
   box-sizing: border-box;
@@ -66,15 +67,16 @@ iframe {
   border-color: darksalmon;
 }
 
-.first-music-embed-container::after {
-  content: "hello world";
-  /* position: absolute; */
-  bottom: 0;
-  right: 0;
+/* .first-music-embed-container::after {
+  content: "Streams: 234,123,123";
+  position: absolute;
+  bottom: -50px;
+  right: -40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500px;
   width: 100px;
   height: 100px;
-  background-color: red;
-}
+} */
 
 .popular-title {
   font-family: "Playfair Display", serif;
