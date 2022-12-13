@@ -10,9 +10,6 @@ def fibonacci(n):
         print(b)
 
 
-fibonacci(10)
-
-
 # Recursive function
 def fibonacci_recursive(n):
     if n <= 1:
