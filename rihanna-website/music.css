@@ -54,8 +54,10 @@ nav {
   list-style: none;
 }
 
-.first-music-embed {
-  position: relative;
+.track-embeds-container {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
 }
 
 /* select every spotify embed */
@@ -64,13 +66,14 @@ iframe {
   border-color: darksalmon;
 }
 
-iframe::after {
-  content: "This is a fancy orange box.";
-  background-color: #ffba10;
-  border-color: black;
-  border-style: dotted;
-  left: 100px;
-  bottom: 100px;
+.first-music-embed-container::after {
+  content: "hello world";
+  /* position: absolute; */
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background-color: red;
 }
 
 .popular-title {
@@ -78,6 +81,7 @@ iframe::after {
   padding-left: 45px;
   padding-top: 50px;
   color: #9d5c63;
+  /* background-color: yellow; */
 }
 
 .first-embed-streams {
