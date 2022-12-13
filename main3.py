@@ -1,18 +1,19 @@
-# factorial of a number
-def fact(n):
-    if n == 0:
-        return 1
+import time
+
+# Recursive fibonacci function
+
+
+def fibonacci_recursive(n):
+    if n <= 1:
+        return n
     else:
-        return n * fact(n-1)
+        return (fibonacci_recursive(n-1) + fibonacci_recursive(n-2))
 
 
-def main():
-    print(fact(27))
+# measure the time it takes to run the function
+startTime = time.process_time()
+# use the function for the number 10
+fibonacci_recursive(40)
+endTime = time.process_time()
 
-
-if __name__ == "__main__":
-    main()
-
-print("Why do we write __name__ == '__main__' ?")
-print("Because we want to run the main() function only when we run the file directly,")
-print("and not when we import it from another file.")
+print("Time taken to run the function: ", endTime - startTime)
