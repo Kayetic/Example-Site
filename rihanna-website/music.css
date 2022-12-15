@@ -80,7 +80,7 @@ nav {
   border-color: darksalmon;
 }
 
-.first-small-music-embed, .second-small-music-embed {
+.first-small-music-embed, .second-small-music-embed, .third-small-music-embed, .fourth-small-music-embed {
   padding-left: 20px;
 }
 
@@ -90,6 +90,5 @@ nav {
   padding-left: 45px;
   padding-top: 50px;
   color: #9d5c63;
-  background-color: yellow;
 }
 
