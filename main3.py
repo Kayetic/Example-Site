@@ -4,9 +4,10 @@ class Person():
         self.age = age
     def drive():
         print("Driving")
-    def age(years):
-        print(f"I was {age} years old before...")
-        print(f"I am now {age + int(years)} years old.")
+    def set_age(self, age):
+        self.age = age
+        # print(f"I was {age} years old before...")
+        # print(f"I am now {age + int(years)} years old.")
 
 
 person1 = Person("John", "32")
