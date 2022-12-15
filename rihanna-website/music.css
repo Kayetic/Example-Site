@@ -55,45 +55,41 @@ nav {
   list-style: none;
 }
 
-.track-embeds-container {
-  display: flex;
-  /* justify-content: space-between; */
-  flex-wrap: wrap;
+.big-track-embeds-container {
+  /* display: inline-block; */
+  /* justify-content: space-around;
+  flex-wrap: wrap; */
+  float: right;
+  padding-right: 100px;
 }
 
-/* select every spotify embed */
-iframe {
-  padding: 50px;
+
+
+.first-music-embed {
+  padding-top: 50px;
+}
+
+.small-track-embeds-container {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+/* select every big spotify embed */
+.first-music-embed, .second-music-embed, .third-music-embed, .fourth-music-embed {
+  /* padding-top: 50px; */
   border-color: darksalmon;
 }
 
-/* .first-music-embed-container::after {
-  content: "Streams: 234,123,123";
-  position: absolute;
-  bottom: -50px;
-  right: -40px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500px;
-  width: 100px;
-  height: 100px;
-} */
+.first-small-music-embed, .second-small-music-embed {
+  padding-left: 20px;
+}
+
 
 .popular-title {
   font-family: "Playfair Display", serif;
   padding-left: 45px;
   padding-top: 50px;
   color: #9d5c63;
-  /* background-color: yellow; */
+  background-color: yellow;
 }
 
-.first-embed-streams {
-  color: #9d5c63;
-  font-weight: 600;
-  padding: 7px 15px;
-  display: inline-block;
-  /* position: absolute; */
-  /* background-color: #f7f4f3; */
-  background-color: red;
-  /* top: 0px;
-  left: 0px; */
-}
