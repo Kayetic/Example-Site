@@ -63,15 +63,13 @@ nav {
   padding-right: 100px;
 }
 
-
-
-.first-music-embed {
-  padding-top: 50px;
-}
-
 .small-track-embeds-container {
   padding-top: 50px;
   padding-left: 50px;
+}
+
+.first-music-embed {
+  padding-top: 50px;
 }
 
 /* select every big spotify embed */
