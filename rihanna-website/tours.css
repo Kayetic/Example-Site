@@ -54,3 +54,20 @@ nav {
 .nav-links li {
   list-style: none;
 }
+
+.tour-dates-title {
+  font-family: "Playfair Display", serif;
+  padding-left: 45px;
+  padding-top: 50px;
+  color: #9d5c63;
+}
+
+/* ### End of template styling ### */
+
+table {
+  width: 800px;
+}
+
+table th {
+  border-bottom: 1px solid #000;
+}
