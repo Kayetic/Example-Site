@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fef5ef;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Change this value for height */
+  min-height: 8vh;
+  /* Change this value for colour of entire navbar */
+  background-color: #b86c77;
+  font-family: "Playfair Display", serif;
+}
+
+.rihanna-text {
+  color: white;
+  cursor: pointer;
+  font-size: 27px;
+  /* Change this value for the distance of the text from the left side */
+  padding-left: 5vh;
+  font-weight: 400;
+}
+
+.rihanna-text:hover {
+  color: rgb(253, 210, 210);
+}
+
+.nav-links {
+  display: flex;
+  background-color: #b86c77;
+  justify-content: space-between;
+  margin-right: 30px;
+  /* Change this value for space between the elements on the right of the navbar */
+  width: 35%;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links li {
+  list-style: none;
+}
