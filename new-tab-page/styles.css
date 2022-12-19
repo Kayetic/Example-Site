@@ -4,13 +4,20 @@
     margin: 0;
 }
 
-.bookmark-container {
-    display: flex;
-    padding-top: 15px;
-    padding-left: 20px;
+i {
+    padding-right: 5px;
 }
 
-.bookmark-youtube {
+.bookmark-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-left: 20px;
+    /* padding-bottom: 10px; */
+    margin-bottom: 10px;
+}
+
+.bookmarkss {
     padding: 15px 25px;
     border: unset;
     border-radius: 15px;
@@ -26,7 +33,7 @@
     overflow: hidden;
 }
    
-.bookmark-youtube::before {
+.bookmarkss::before {
     content: "";
     position: absolute;
     top: 0;
@@ -41,14 +48,11 @@
     transition: all 250ms
 }
    
-.bookmark-youtube:hover {
+.bookmarkss:hover {
     color: #e8e8e8;
 }
    
-.bookmark-youtube:hover::before {
+.bookmarkss:hover::before {
     width: 100%;
 }
 
-i {
-    padding-right: 5px;
-}
