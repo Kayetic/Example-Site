@@ -1,58 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: whitesmoke;
 }
 
 i {
-    padding-right: 5px;
-}
-
-.bookmark-container {
-    display: flex;
-    flex-direction: column;
-    padding-top: 15px;
-    padding-left: 20px;
-    /* padding-bottom: 10px; */
-    margin-bottom: 10px;
+  padding-right: 9px;
 }
 
 .bookmarkss {
-    padding: 15px 25px;
-    border: unset;
-    border-radius: 15px;
-    color: #212121;
-    z-index: 1;
-    background: #e8e8e8;
-    position: relative;
-    font-weight: 400;
-    font-size: 17px;
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    transition: all 250ms;
-    overflow: hidden;
-}
-   
-.bookmarkss::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    border-radius: 15px;
-    background-color: #212121;
-    z-index: -1;
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    transition: all 250ms
-}
-   
-.bookmarkss:hover {
-    color: #e8e8e8;
-}
-   
-.bookmarkss:hover::before {
-    width: 100%;
+  width: 170px;
 }
 
+.bookmark-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 35px;
+  padding-left: 35px;
+}
+
+.bookmarkss {
+  padding: 15px 25px;
+  margin-bottom: 30px;
+  border: unset;
+  border-radius: 15px;
+  color: #212121;
+  z-index: 1;
+  background: #e5e9ec;
+  position: relative;
+  font-family: "Chivo Mono", monospace;
+  font-weight: 400;
+  font-size: 17px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 3px 7px 10px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+  overflow: hidden;
+}
+
+.bookmarkss::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #861388;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+}
+
+.bookmarkss:hover {
+  color: #e8e8e8;
+}
+
+.bookmarkss:hover::before {
+  width: 100%;
+}
