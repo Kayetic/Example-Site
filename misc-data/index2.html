@@ -4,34 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>School</title>
-    <style>
-      /* Navbar styles */
-      .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #333;
-        color: white;
-        padding: 10px 20px;
-      }
-      .navbar a {
-        color: white;
-        text-decoration: none;
-      }
-      /* Grid styles */
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 20px;
-      }
-      .grid-item {
-        background-color: lightgray;
-        border: 1px solid gray;
-        text-align: center;
-        padding: 20px;
-      }
-    </style>
+    <title>School Website concept</title>
+    <link rel="stylesheet" href="styles2.css" />
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <div class="navbar-container">
+        <div class="title-container">
+          <h1 class="title-text">Polska Szkola</h1>
+        </div>
+        <div class="nav-links-container">
+          <a class="nav-link" href="#">O nas</a>
+          <a class="nav-link" href="#">Nauczyciele</a>
+          <a class="nav-link" href="#">Kontakt</a>
+          <a class="nav-link" href="#">Zapisy</a>
+          <a class="nav-link" href="#">Galeria</a>
+          <a class="nav-link" href="#">Oplaty</a>
+        </div>
+      </div>
+    </nav>
+    <div class="main-title-container">
+      <div class="large-welcome-text-container">
+        <h1 id="welcome-texts" class="first-line">Polska Szkola</h1>
+        <h3 id="welcome-texts" class="second-line">im. Wislawy Szymborskiej</h3>
+        <h4 id="welcome-texts" class="third-line">w Grays</h4>
+        <p class="description">
+          Naszą misją jest nauka języka polskiego, tradycji i kultury oraz
+          historii i geografii naszego pięknego kraju. Nauka odbywa się w
+          przyjaznej i stymulującej atmosferze. Doświadczeni nauczyciele
+          wprowadzą naszych uczniów do świata nauki i zabawy w języku polskim
+          przy pomocy wyjątkowych podręczników.
+        </p>
+      </div>
+      <div class="school-graphic">
+        <img class="school-image" src="wislawa.jpg" alt="wislawa szymborska" />
+      </div>
+    </div>
+    <div class="secondary-container">
+      <iframe
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d316420.74191866064!2d0.24801720761035662!3d51.71406476191523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8b6322143535b%3A0x98313d9f4451128d!2sThe%20Gateway%20Academy!5e0!3m2!1sen!2suk!4v1672177987655!5m2!1sen!2suk"
+        width="450"
+        height="350"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div class="contact-info">
+        <p class="address-heading">Adres</p>
+        <p class="address">Marshfoot Rd, Tilbury, Grays RM16 4LU</p>
+        <p class="email-heading">E-Mail</p>
+        <p class="email">polskaszkolagrays@gmail.com</p>
+        <p class="phone-heading">Telefony</p>
+      </div>
+    </div>
+  </body>
 </html>
