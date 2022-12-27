@@ -1,35 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      .parallax {
-        /* The image used */
-        background-image: url("paul-new.jpg");
-
-        /* Set a specific height */
-        min-height: 500px;
-
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-    </style>
+    <meta charset="utf-8" />
+    <title>My School</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
-
-    <div class="parallax"></div>
-
-    <div style="height: 1000px; background-color: red; font-size: 36px">
-      Scroll Up and Down this page to see the parallax scrolling effect. This
-      div is just here to enable scrolling. Tip: Try to remove the
-      background-attachment property to remove the scrolling effect.
-    </div>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    <!-- Main content -->
+    <main>
+      <h1>Welcome to My School</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis
+        dui id dui maximus, id cursus leo efficitur. Maecenas fringilla nisi a
+        est laoreet, at dictum tortor porttitor. Sed consectetur enim in neque
+        laoreet, non ultricies diam hendrerit. Aenean tristique tortor est, sit
+        amet placerat arcu tincidunt a. Morbi non elementum lacus. Nunc ornare,
+        elit id sodales suscipit, ligula ligula fermentum lacus, vel volutpat
+        velit diam non ligula. Sed ut fermentum diam.
+      </p>
+      <!-- Grid -->
+      <div class="grid">
+        <div class="grid-item">
+          <h2>Academics</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            convallis dui id dui maximus, id cursus leo efficitur.
+          </p>
+        </div>
+        <div class="grid-item">
+          <h2>Athletics</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            convallis dui id dui maximus, id cursus leo efficitur.
+          </p>
+        </div>
+        <div class="grid-item">
+          <h2>Extracurricular</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            convallis dui id dui maximus, id cursus leo efficitur.
+          </p>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <p>Copyright &copy; 2022 My School</p>
+    </footer>
   </body>
 </html>
