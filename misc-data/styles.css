@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 
 * {
   margin: 0;
@@ -8,11 +9,12 @@
 }
 
 .navbar-container {
+  /* background-color: green; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   /* top | right | bottom | left */
-  margin: 60px 60px 60px 40px;
+  margin: 60px 95px 130px 74px;
 }
 
 .title-text {
@@ -24,12 +26,16 @@
   font-size: 20px;
 }
 
-a {
+.nav-link {
   color: #691a3f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 }
 
-a:visited,
-a:link {
+.nav-link:visited,
+.nav-link:link,
+a {
   text-decoration: none;
 }
 
@@ -37,4 +43,85 @@ a:link {
   display: flex;
   justify-content: space-between;
   gap: 60px;
+}
+
+.main-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  margin-right: 100px;
+  /* background-color: orange; */
+}
+
+.description {
+  margin-top: 45px;
+  margin-right: 70px;
+  font-family: "Poppins", sans-serif;
+}
+
+.school-image {
+  width: 750px;
+}
+
+#welcome-texts {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 600;
+  line-height: 110%;
+}
+
+.first-line {
+  font-size: 80px;
+  color: #691a3f;
+}
+
+.second-line {
+  font-size: 60px;
+  color: #4a132d;
+}
+
+.third-line {
+  font-size: 45px;
+  color: #3c1025;
+}
+
+.large-welcome-text-container {
+  margin-left: 100px;
+}
+
+.more-info-sign-up-container {
+  display: flex;
+}
+
+.more-info {
+  font-family: "Lexend Deca", sans-serif;
+  color: #2e6b55;
+  font-size: 18px;
+}
+
+.payments {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: #249687;
+  color: white;
+  font-size: 18px;
+  padding: 6px 11px;
+}
+
+.extra-links-image {
+  padding-top: 30px;
+  width: 1000px;
+}
+
+.secondary-container {
+  justify-content: space-between;
+  margin: 100px;
+  display: flex;
+  /* background-color: red; */
+}
+
+.maps-button {
+  background-color: #691a3f;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 5px 8px;
 }
