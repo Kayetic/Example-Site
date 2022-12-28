@@ -73,15 +73,22 @@ nav {
 }
 
 /* select every big spotify embed */
-.first-music-embed, .second-music-embed, .third-music-embed, .fourth-music-embed {
+.first-music-embed,
+.second-music-embed,
+.third-music-embed,
+.fourth-music-embed {
   /* padding-top: 50px; */
   border-color: darksalmon;
 }
 
-.first-small-music-embed, .second-small-music-embed, .third-small-music-embed, .fourth-small-music-embed {
+.first-small-music-embed,
+.second-small-music-embed,
+.third-small-music-embed,
+.fourth-small-music-embed {
   padding-left: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
 }
-
 
 .popular-title {
   font-family: "Playfair Display", serif;
@@ -89,4 +96,3 @@ nav {
   padding-top: 50px;
   color: #9d5c63;
 }
-
