@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Change this value for height */
+  min-height: 10vh;
+  /* Change this value for colour of entire navbar */
+  background-color: #b86c77;
+  font-family: "Playfair Display", serif;
+}
+
+.rihanna-text {
+  color: white;
+  cursor: pointer;
+  font-size: 27px;
+  /* Change this value for the distance of the text from the left side */
+  padding-left: 5vh;
+  font-weight: 400;
+}
+
+.rihanna-text:hover {
+  color: rgb(253, 210, 210);
+}
+
+.nav-links {
+  display: flex;
+  background-color: #b86c77;
+  justify-content: space-between;
+  margin-right: 30px;
+  /* Change this value for space between the elements on the right of the navbar */
+  width: 35%;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.image-container img {
+  display: flex;
+}
+
+.image-container img {
+  width: 100%;
+  /* background-color: aqua; */
+  padding: 50px 50px;
+  width: 50%;
+  height: 50%;
+}
+
+.nav-links li a {
+  transition: all 0.8 ease 0s;
+}
+
+.nav-links li a:hover {
+  transition: all 0.3 ease 0s;
+  color: rgb(253, 210, 210);
+}
+
+/* h1 {
+  color: #c6d8ff;
+  cursor: pointer;
+  margin-right: auto;
+  /* background-color: #6b5ca5;
+}
+
+li,
+a,
+button {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #c6d8ff;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  transition: all 0.3 ease 0s;
+}
+
+.nav-links li a:hover {
+  transition: all 0.3 ease 0s;
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.nav-container {
+  background-color: ;
+} */
