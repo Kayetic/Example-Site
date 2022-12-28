@@ -28,7 +28,8 @@
 }
 
 .nav-link {
-  color: #691a3f;
+  /* color: #691a3f; */
+  color: black;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -68,10 +69,10 @@ a {
 .school-image {
   width: 700px;
   border-radius: 10px;
-  border: 14px solid #69a590;
+  background-color: #249687;
 }
 
-#welcome-texts {
+.school- #welcome-texts {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 600;
   line-height: 110%;
@@ -131,7 +132,11 @@ a {
 }
 
 .map {
-  margin: 100px;
+  /* margin: 100px; */
+}
+
+.map-container {
+  margin: 100px 30px 30px 100px;
   border-radius: 10px;
   border: 7px solid black;
 }
