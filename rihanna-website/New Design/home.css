@@ -52,6 +52,22 @@ a {
 
 /* #################### END OF NAVIGATION #################### */
 
+.first-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-rihanna-image {
+  width: 300px;
+}
+
+.heading-container {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 600;
+  line-height: 150%;
+}
+
 .main-title-container {
   display: flex;
   justify-content: space-between;
