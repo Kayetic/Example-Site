@@ -4,32 +4,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      .parallax {
-        /* The image used */
-        background-image: url("paul-new.jpg");
-
-        /* Set a specific height */
-        min-height: 500px;
-
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-    </style>
+    <title>School Website concept</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
-
-    <div class="parallax"></div>
-
-    <div style="height: 1000px; background-color: red; font-size: 36px">
-      Scroll Up and Down this page to see the parallax scrolling effect. This
-      div is just here to enable scrolling. Tip: Try to remove the
-      background-attachment property to remove the scrolling effect.
+    <nav>
+      <div class="navbar-container">
+        <div class="title-container">
+          <h1 class="title-text">Polska Szkola</h1>
+        </div>
+        <div class="nav-links-container">
+          <a class="nav-link" href="#">O nas</a>
+          <a class="nav-link" href="#">Nauczyciele</a>
+          <a class="nav-link" href="#">Kontakt</a>
+          <a class="nav-link" href="#">Zapisy</a>
+          <a class="nav-link" href="#">Galeria</a>
+          <a class="nav-link" href="#">Oplaty</a>
+        </div>
+      </div>
+    </nav>
+    <div class="main-title-container">
+      <div class="large-welcome-text-container">
+        <h1 id="welcome-texts" class="first-line">Polska Szkola</h1>
+        <h3 id="welcome-texts" class="second-line">im. Wislawy Szymborskiej</h3>
+        <h4 id="welcome-texts" class="third-line">w Grays</h4>
+        <p class="description">
+          Naszą misją jest nauka języka polskiego, tradycji i kultury oraz
+          historii i geografii naszego pięknego kraju. Nauka odbywa się w
+          przyjaznej i stymulującej atmosferze. Doświadczeni nauczyciele
+          wprowadzą naszych uczniów do świata nauki i zabawy w języku polskim
+          przy pomocy wyjątkowych podręczników.
+        </p>
+      </div>
+      <div class="school-graphic">
+        <img
+          class="school-image"
+          src="final-school-graphic-crop.png"
+          alt="Cartoon style school building, vibrant pastel colours"
+        />
+      </div>
     </div>
+    <div class="secondary-container">
+      <div class="secondary-left-container">
+        <div class="more-info-sign-up-container">
+          <a href="#" class="more-info">Wiecej Informacji ➜</a>
+          <a href="#" class="payments">Oplaty</a>
+        </div>
+        <!-- <div class="maps-button-div">
+          <a href="#" class="maps-button">Google Maps</a>
+        </div> -->
+      </div>
+      <div class="secondary-right-container">
+        <img
+          class="extra-links-image"
+          src="extra-links-buttons.png"
+          alt="Abstract, extra links with pastel icons and text"
+        />
+      </div>
+    </div>
+    <!-- <img class="underline" src="squiggly-line.png" alt="Squiggly line" /> -->
   </body>
 </html>
