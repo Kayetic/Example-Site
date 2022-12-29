@@ -56,11 +56,15 @@ a {
 
 /* #################### END OF NAVIGATION #################### */
 
-.first-container {
+.entire-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* .first-container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  margin: 0px 200px 0px 200px;
+  margin: 0px 200px 0px 158px;
 }
 
 .top-rihanna-image {
@@ -111,8 +115,6 @@ a {
 
 .secondary-container {
   justify-content: space-between;
-  /* top | right | bottom | left */
   margin: 0px 100px 0px 100px;
   display: flex;
-  /* background-color: red; */
-}
+} */
