@@ -6,16 +6,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  z-index: 1;
 }
 
 body {
   background-color: rgba(229, 209, 236, 0.1);
-}
-
-.wrapper {
-  height: 100vh;
-  overflow-y: auto;
-  overflow-x: hidden;
 }
 
 .navbar-container {
@@ -63,9 +58,11 @@ a {
 /* #################### END OF NAVIGATION #################### */
 
 .entire-grid-container {
+  margin-top: 200px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(6, 1fr);
+  /* background-image: url("img/background-for-parallax.png"); */
 }
 
 .heading-main-picture {
@@ -75,9 +72,12 @@ a {
   margin: 0px 200px 0px 158px;
 }
 
-.top-rihanna-image {
+.top-image {
   width: 900px;
-  /* align-self: flex-end; */
+  position: absolute;
+  left: 900px;
+  top: 180px;
+  z-index: 1;
 }
 
 #welcome-texts {
@@ -93,8 +93,27 @@ a {
   background-color: #691a3f;
   padding: 8px 13px 13px 13px;
   z-index: -1;
-  /* position: absolute; */
+  position: relative;
+  margin-bottom: 15px;
 }
+
+.second-line {
+  font-size: 55px;
+}
+
+.fa-brands {
+  font-size: 1.8em;
+  color: #4a132d;
+}
+
+.icons-line {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 18vw;
+}
+
 /*
 .heading-container {
   font-family: "Lexend Deca", sans-serif;
@@ -141,4 +160,5 @@ a {
 .placeholder-section {
   background-color: beige;
   grid-column: 1 / -1;
+  grid-row: 4 / -1;
 }
