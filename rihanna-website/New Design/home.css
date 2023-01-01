@@ -103,15 +103,19 @@ a {
 
 .fa-brands {
   font-size: 1.8em;
-  color: #4a132d;
+  color: beige;
+  /* background-color: #4a132d; */
 }
 
 .icons-line {
   margin: 15px 0;
+  padding: 15px;
   display: flex;
   align-items: center;
+  max-width: 25vw;
+  min-width: 20vw;
   justify-content: space-between;
-  width: 18vw;
+  background-color: #4a132d;
 }
 
 /*
