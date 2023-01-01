@@ -12,6 +12,12 @@ body {
   background-color: rgba(229, 209, 236, 0.1);
 }
 
+.wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
 .navbar-container {
   /* background-color: green; */
   display: flex;
@@ -56,12 +62,14 @@ a {
 
 /* #################### END OF NAVIGATION #################### */
 
-.entire-container {
+.entire-grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
 }
 
-/* .first-container {
+.heading-main-picture {
+  grid-column: 1 / -1;
   display: flex;
   justify-content: space-between;
   margin: 0px 200px 0px 158px;
@@ -69,8 +77,25 @@ a {
 
 .top-rihanna-image {
   width: 900px;
+  /* align-self: flex-end; */
 }
 
+#welcome-texts {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 600;
+  line-height: 110%;
+}
+
+.first-line {
+  font-size: 170px;
+  width: fit-content;
+  color: white;
+  background-color: #691a3f;
+  padding: 8px 13px 13px 13px;
+  z-index: -1;
+  /* position: absolute; */
+}
+/*
 .heading-container {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 600;
@@ -81,12 +106,6 @@ a {
   margin-top: 55px;
   margin-right: 70px;
   font-family: "Poppins", sans-serif;
-}
-
-#welcome-texts {
-  font-family: "Lexend Deca", sans-serif;
-  font-weight: 600;
-  line-height: 110%;
 }
 
 .first-line {
@@ -118,3 +137,8 @@ a {
   margin: 0px 100px 0px 100px;
   display: flex;
 } */
+
+.placeholder-section {
+  background-color: beige;
+  grid-column: 1 / -1;
+}
