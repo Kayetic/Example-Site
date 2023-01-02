@@ -73,13 +73,14 @@ img {
   width: 300px;
   height: 300px;
   object-fit: cover;
+  overflow: hidden;
 }
 
 img:hover {
   filter: grayscale(0%) blur(0px);
 }
 
-.image-container {
+/* .image-container {
   position: relative;
 }
 
@@ -100,4 +101,32 @@ img:hover {
   transform: translateY(0%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   opacity: 1;
+} */
+
+.image-container * {
+  transition: 0.3s ease all;
+}
+
+.image-container img {
+  display: block;
+}
+
+.image-container .focus-content {
+  display: block;
+  padding: 8px 12px;
+}
+
+.image-container p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.image-container:hover img,
+.image-container:focus-within img {
+  margin-top: -80px;
+}
+
+.image-container:hover h3,
+.image-container:focus-within h3 {
+  padding: 8px 12px 0;
 }
