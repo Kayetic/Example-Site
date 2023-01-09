@@ -116,7 +116,7 @@ a {
 
 .card:hover h3,
 .card:focus-within h3 {
-  padding: 8px 12px 0;
+  padding: 5px 12px 0;
 }
 
 img {
