@@ -65,6 +65,8 @@ a {
   gap: 1rem;
 }
 
+/* #################### CARD STYLING #################### */
+
 .card {
   width: 300px;
   height: 280px;
@@ -108,7 +110,7 @@ a {
 
 .card:hover img,
 .card:focus-within img {
-  margin-top: -80px;
+  margin-top: -70px;
   filter: grayscale(0%);
 }
 
