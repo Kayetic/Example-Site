@@ -61,28 +61,3 @@ a {
 }
 
 /* #################### END OF NAVIGATION #################### */
-
-.table-container {
-  margin: 0 18rem 0 4rem;
-  display: grid;
-  grid-template-columns: 1fr 65% 1fr 1fr;
-  grid-template-rows: repeat(6, 1fr);
-  gap: 0;
-  /* row-gap: 1px solid black; */
-}
-
-.title {
-  font-family: "Lexend Deca", sans-serif;
-  letter-spacing: 0.1rem;
-  font-size: 40px;
-  /* top | right | bottom | left */
-  margin: 0 0 2rem 4rem;
-}
-
-/* .table-container * {
-  border-bottom: #691a3f 1px solid;
-} */
-
-#underline {
-  border-bottom: #691a3f 2px solid;
-}
