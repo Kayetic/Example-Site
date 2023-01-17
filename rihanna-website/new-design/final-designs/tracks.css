@@ -61,16 +61,9 @@ a {
 .main-container {
   display: grid;
   grid-template-columns: 1fr 65%;
-  margin: 0 4rem;
-}
-
-.small-embeds-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.large-embeds-container {
-}
-
-.small {
+  /* margin: 0 4rem; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 0 2rem;
+  row-gap: 1rem;
 }
