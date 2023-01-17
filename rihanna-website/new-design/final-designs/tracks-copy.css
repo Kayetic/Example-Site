@@ -31,6 +31,14 @@ body {
   font-weight: 400;
   font-size: 20px;
   /* border-radius: 10px; */
+  animation: all 0.4s;
+  transition: all 0.3s;
+  letter-spacing: 1.5px;
+}
+
+.title-text:hover {
+  letter-spacing: 3px;
+  transition: all 0.3s;
 }
 
 .nav-link {
@@ -56,6 +64,54 @@ a {
   /* border-radius: 10px; */
 }
 
+a {
+  font-size: 20px;
+  color: #584e4a;
+  position: relative;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  padding-bottom: 8px;
+}
+
+a:before,
+a:after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #691a3f;
+}
+a:before {
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+}
+a:after {
+  opacity: 0;
+  transform: translateY(4px);
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    opacity 0.2s;
+}
+a:hover:before,
+a:hover:after,
+a:focus:before,
+a:focus:after {
+  opacity: 1;
+  transform: translateY(0);
+}
+a:hover:before,
+a:focus:before {
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    opacity 0.2s;
+}
+a:hover:after,
+a:focus:after {
+  transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    opacity 0s 0.2s;
+}
+
 /* #################### END OF NAVIGATION #################### */
 
 .main-container {
@@ -74,4 +130,16 @@ a {
 
 .small {
   margin-bottom: 2rem;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 900px;
+  margin: 0 0 5rem 7rem;
+  letter-spacing: 2px;
+}
+
+.coloured-text {
+  color: #691a3f;
 }
