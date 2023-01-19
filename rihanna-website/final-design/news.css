@@ -168,5 +168,6 @@ p {
 .news-link {
   background-color: whitesmoke;
   padding: 0.5rem 1rem;
-  margin: 10rem 1rem;
+  margin: 1rem 0 4rem 0;
+  box-sizing: border-box;
 }
