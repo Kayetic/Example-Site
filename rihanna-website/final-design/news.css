@@ -164,3 +164,9 @@ p {
   font-family: "Lexend Deca", sans-serif;
   letter-spacing: 0.2px;
 }
+
+.news-link {
+  background-color: whitesmoke;
+  padding: 0.5rem 1rem;
+  margin: 10rem 1rem;
+}
