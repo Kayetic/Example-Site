@@ -36,7 +36,19 @@ body {
   letter-spacing: 1.5px;
 }
 
+/* Letters spacing out on hover */
 .title-text:hover {
+  letter-spacing: 3px;
+  transition: all 0.3s;
+}
+
+.nav-link {
+  animation: all 0.4s;
+  transition: all 0.3s;
+  letter-spacing: 0.8px;
+}
+
+.nav-link:hover {
   letter-spacing: 3px;
   transition: all 0.3s;
 }
@@ -64,6 +76,7 @@ a {
   /* border-radius: 10px; */
 }
 
+/* #################### UNDERLINE ANIMATION #################### */
 a {
   font-size: 20px;
   color: #584e4a;
@@ -111,6 +124,7 @@ a:focus:after {
   transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275),
     opacity 0s 0.2s;
 }
+/* #################### END OF - UNDERLINE ANIMATION #################### */
 
 /* #################### END OF NAVIGATION #################### */
 
