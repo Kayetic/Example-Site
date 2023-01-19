@@ -52,6 +52,7 @@ body {
   letter-spacing: 3px;
   transition: all 0.3s;
 }
+/* END OF - Letters spacing out on hover */
 
 .nav-link {
   color: #691a3f;
@@ -130,20 +131,30 @@ a {
 
 .main-container {
   display: grid;
-  grid-template-columns: 1fr 65%;
+  grid-template-columns: 1fr 72%;
   margin: 0 4rem;
 }
 
 .small-embeds-container {
   display: flex;
   flex-direction: column;
+  /* height: 500px; */
+  margin-left: 3rem;
 }
 
 .large-embeds-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: space-around;
+}
+
+.large {
+  justify-self: center;
 }
 
 .small {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .heading {
