@@ -173,10 +173,10 @@ p {
 }
 
 .image-container {
-  width: 1rem;
-  object-fit: scale-down;
+  width: 100%;
 }
 
 img {
-  object-fit: scale-down;
+  width: 100%;
+  height: auto;
 }
