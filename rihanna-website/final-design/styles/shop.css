@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* font-family: "Poppins", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+/* font-family: "Lexend Deca", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+/* font-family: 'Lexend Deca', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+/* font-family: 'Lexend Deca', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(229, 209, 236, 0.1);
+}
+
+.navbar-container {
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* top | right | bottom | left */
+  margin: 60px 95px 75px 74px;
+}
+
+.title-text {
+  background-color: #691a3f;
+  color: whitesmoke;
+  padding: 9px 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  /* border-radius: 10px; */
+  animation: all 0.4s;
+  transition: all 0.3s;
+  letter-spacing: 1.5px;
+}
+
+/* Letters spacing out on hover */
+.title-text:hover {
+  letter-spacing: 3px;
+  transition: all 0.3s;
+}
+
+.nav-link {
+  animation: all 0.4s;
+  transition: all 0.3s;
+  letter-spacing: 0.8px;
+}
+
+.nav-link:hover {
+  letter-spacing: 3px;
+  transition: all 0.3s;
+}
+/* END OF - Letters spacing out on hover */
+
+.nav-link {
+  color: #691a3f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.nav-link:visited,
+.nav-link:link,
+a {
+  text-decoration: none;
+}
+
+.nav-links-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 90px;
+  /* background-color: whitesmoke; */
+  /* background-color: rg b(248, 239, 239); */
+  margin: 15px 35px;
+  /* border-radius: 10px; */
+}
+
+/* #################### UNDERLINE ANIMATION #################### */
+.nav-links-container a {
+  font-size: 20px;
+  color: #584e4a;
+  position: relative;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  padding-bottom: 8px;
+}
+
+.nav-links-container a:before,
+.nav-links-container a:after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #691a3f;
+}
+.nav-links-container a:before {
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+}
+.nav-links-container a:after {
+  opacity: 0;
+  transform: translateY(4px);
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    opacity 0.2s;
+}
+.nav-links-container a:hover:before,
+.nav-links-container a:hover:after,
+.nav-links-container a:focus:before,
+.nav-links-container a:focus:after {
+  opacity: 1;
+  transform: translateY(0);
+}
+.nav-links-container a:hover:before,
+.nav-links-container a:focus:before {
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    opacity 0.2s;
+}
+.nav-links-container a:hover:after,
+.nav-links-container a:focus:after {
+  transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    opacity 0s 0.2s;
+}
+/* #################### END OF - UNDERLINE ANIMATION #################### */
+/* #################### END OF NAVIGATION #################### */
+
+.main-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 3rem;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 900px;
+  margin: 1rem 0 5rem 5rem;
+  letter-spacing: 2px;
+}
+
+.heading::after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 7px;
+  background-color: #691a3f;
+  margin: 8px 0;
+}
+
+.header-featured {
+  grid-column: 1 / -1;
+}
