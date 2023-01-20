@@ -11,8 +11,6 @@
 
 body {
   background-color: rgba(229, 209, 236, 0.1);
-  height: 100%;
-  overflow: hidden;
 }
 
 .navbar-container {
@@ -127,5 +125,30 @@ a {
     opacity 0s 0.2s;
 }
 /* #################### END OF - UNDERLINE ANIMATION #################### */
-
 /* #################### END OF NAVIGATION #################### */
+
+.main-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 3rem;
+  gap: 3rem;
+  margin-bottom: 5rem;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 900px;
+  margin: 0 0 5rem 7rem;
+  letter-spacing: 2px;
+}
+
+.coloured-text {
+  color: #691a3f;
+}
+
+.latest-album-container {
+  margin: 0 6rem;
+  margin-bottom: 5rem;
+  width: 40rem;
+}
