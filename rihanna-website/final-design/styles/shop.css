@@ -7,6 +7,8 @@
 /* font-family: 'Lexend Deca', sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 /* font-family: 'Lexend Deca', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+/* font-family: 'Rubik', sans-serif; */
 
 * {
   padding: 0;
@@ -150,7 +152,8 @@ a {
 .heading::after {
   content: "";
   display: block;
-  width: 200px;
+  /* width: 200px; */
+  width: 100%;
   height: 7px;
   background-color: #691a3f;
   margin: 8px 0;
@@ -168,4 +171,184 @@ a {
 
 h2 {
   width: 350px;
+  font-family: "Lexend Deca", sans-serif;
+  letter-spacing: 1px;
+}
+.price {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color: white;
+  background-color: #691a3f;
+  width: fit-content;
+  padding: 5px 9px;
+  margin: 2px 0;
+}
+.product-colors {
+  display: flex;
+  gap: 10px;
+}
+
+.price-colours {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* #################### COLOURS #################### */
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+}
+/* 
+.color-#f6efe8
+.color-#f48ca1
+.color-#d36359
+.color-#d8ac90
+.color-#da9985
+.color-#c76e64
+.color-#b16774
+.color-#c27b6d
+.color-#9b644f
+.color-#814f6a */
+
+.first-product-colors :nth-child(1) {
+  background-color: #f6efe8;
+}
+.first-product-colors :nth-child(2) {
+  background-color: #f48ca1;
+}
+.first-product-colors :nth-child(3) {
+  background-color: #d36359;
+}
+.first-product-colors :nth-child(4) {
+  background-color: #d8ac90;
+}
+.first-product-colors :nth-child(5) {
+  background-color: #da9985;
+}
+.first-product-colors :nth-child(6) {
+  background-color: #c76e64;
+}
+.first-product-colors :nth-child(7) {
+  background-color: #b16774;
+}
+.first-product-colors :nth-child(8) {
+  background-color: #c27b6d;
+}
+.first-product-colors :nth-child(9) {
+  background-color: #9b644f;
+}
+.first-product-colors :nth-child(10) {
+  background-color: #814f6a;
+}
+
+.second-product-colors :nth-child(1) {
+  background-color: #d68a40;
+}
+.second-product-colors :nth-child(2) {
+  background-color: #db9083;
+}
+.second-product-colors :nth-child(3) {
+  background-color: #9b6060;
+}
+.second-product-colors :nth-child(4) {
+  background-color: #d77fa3;
+}
+.second-product-colors :nth-child(5) {
+  background-color: #cc5876;
+}
+.second-product-colors :nth-child(6) {
+  background-color: #cc5c5e;
+}
+.second-product-colors :nth-child(7) {
+  background-color: #c2312a;
+}
+.second-product-colors :nth-child(8) {
+  background-color: #a64f5a;
+}
+.second-product-colors :nth-child(9) {
+  background-color: #8f5039;
+}
+
+button {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 1px solid #691a3f;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  color: rgb(105, 26, 63);
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+button:hover {
+  background: rgba(105, 26, 63, 0.3);
+  box-shadow: 0 0 30px 5px rgba(105, 26, 63, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+button:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+button::before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+button:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+.product a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
