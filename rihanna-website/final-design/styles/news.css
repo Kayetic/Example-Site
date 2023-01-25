@@ -152,7 +152,7 @@ a {
 }
 
 h2 {
-  font-family: "Lexend Deca";
+  font-family: "Brown", sans-serif;
   margin: 1.5rem 0;
 }
 
@@ -166,6 +166,11 @@ p {
   padding: 0.5rem 1rem;
   margin: 1rem 0 4rem 0;
   box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+a:visited {
+  color: black;
 }
 
 .image-container {

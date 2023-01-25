@@ -76,7 +76,7 @@ a {
   letter-spacing: 0.1rem;
   font-size: 40px;
   /* top | right | bottom | left */
-  margin: 0 0 2rem 4rem;
+  margin: 0 0 4rem 4rem;
 }
 
 /* .table-container * {
@@ -85,4 +85,8 @@ a {
 
 #underline {
   border-bottom: #691a3f 2px solid;
+}
+
+.table-container {
+  font-family: "Poppins", sans-serif;
 }
