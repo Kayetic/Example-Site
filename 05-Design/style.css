@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap");
+
 /*
 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
@@ -17,6 +19,7 @@ FONT SIZE SYSTEM (px)
 /* ------------------------ */
 body {
   font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -57,6 +60,7 @@ header {
 
 h1 {
   margin-bottom: 24px;
+  font-size: 52px;
 }
 
 .header-text {
