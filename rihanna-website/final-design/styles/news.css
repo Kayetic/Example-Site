@@ -173,6 +173,10 @@ a:visited {
   color: black;
 }
 
+.title-text:visited {
+  color: whitesmoke;
+}
+
 .image-container {
   width: 100%;
 }
