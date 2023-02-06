@@ -1,0 +1,105 @@
+@font-face {
+  font-family: Melody-Medium;
+  src: url(fonts/BLMelody-Bold.woff2);
+}
+
+@font-face {
+  font-family: HKGrotesk;
+  src: url(fonts/HKGroteskWide-Black.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* overflow: hidden; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: Melody-Medium;
+  height: 91px;
+  align-items: center;
+  padding: 0 3rem;
+  /* background-color: #fef9f3; */
+  background-color: #dee8d5;
+  border-bottom: 4px solid black;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.search {
+  font-size: 40px;
+}
+
+ul li {
+  margin: 0 25px;
+  font-size: 16px;
+}
+
+.logo {
+  font-family: Melody-Medium;
+  font-weight: 900;
+  letter-spacing: 0.2px;
+  font-size: 40px;
+}
+
+.search {
+  font-size: 25px;
+}
+
+.search i {
+  margin-right: 12px;
+  font-size: 18px;
+}
+
+/* ######################################## */
+
+.main-container {
+  display: flex;
+  height: 900px;
+}
+
+.left-section {
+  border-right: 4px solid black;
+  width: 65%;
+  background-color: #ac92a6;
+  height: 100%;
+  font-family: Melody-Medium;
+  font-weight: 900;
+  letter-spacing: 0.6px;
+  font-size: 130px;
+  line-height: 220px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 440px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.left-section h1 {
+  align-self: flex-end;
+  justify-self: flex-end;
+  /* text-align: end; */
+}
+
+.right-section {
+  background-color: #dee8d5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.right-section img {
+  width: 580px;
+  border: 2.5px solid black;
+}
