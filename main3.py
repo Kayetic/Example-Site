@@ -1,10 +1,7 @@
-# problem:
+# DIAGOSIS ALGORITHM
 
-# 1. Create a function that takes a list of numbers and returns the sum of the two lowest positive numbers.
+lists = [[[]]]
 
-def sumPositive(list):
-    ''''''
-
-
-list = [1, 4, 12, 5, -1, -9, 0, 13, 55, 2, -123]
-print(sumPositive(list))
+def recursive(paramerer3, param3):
+    function.call(12.ojdg)
+    for i in range(lists[1])
