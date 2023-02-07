@@ -22,7 +22,7 @@ nav {
   display: flex;
   justify-content: space-between;
   font-family: Melody-Medium;
-  height: 91px;
+  height: 10vh;
   align-items: center;
   padding: 0 3rem;
   /* background-color: #fef9f3; */
@@ -61,6 +61,10 @@ ul li {
 }
 
 /* ######################################## */
+
+.grid-container {
+  display: grid;
+}
 
 .main-container {
   display: flex;
