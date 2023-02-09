@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 @font-face {
   font-family: Melody-Medium;
   src: url(fonts/BLMelody-Bold.woff2);
@@ -27,14 +29,58 @@
   box-sizing: border-box;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* font-family: Melody-Medium; */
+  font-family: "Poppins", sans-serif;
+  height: 10vh;
+  align-items: center;
+  padding: 0 3rem;
+  /* background-color: #fef9f3; */
+  background-color: #b2b2a8;
+  /* outline: 4px solid black; */
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.search {
+  font-size: 40px;
+}
+
+ul li {
+  margin: 0 25px;
+  font-size: 16px;
+}
+
+.logo {
+  font-family: Melody-Medium;
+  font-weight: 900;
+  letter-spacing: 0.2px;
+  font-size: 40px;
+}
+
+.search {
+  font-size: 25px;
+}
+
+.search i {
+  margin-right: 12px;
+  font-size: 18px;
+}
+
 .main-grid-container {
   display: grid;
   grid-template-columns: 65% 1fr;
-  height: 100vh;
+  height: 90vh;
 }
 
 .left-section {
   display: flex;
+  background-color: #c1c0b6;
 }
 
 .right-section {
@@ -42,10 +88,13 @@
 }
 
 .left-section h1 {
-  font-family: Melody-Medium;
+  /* font-family: Melody-Medium; */
   /* font-family: HKGrotesk; */
+  font-family: "Poppins", sans-serif;
+  margin-left: 2rem;
   font-size: 12rem;
   align-self: flex-end;
+  /* color: #932f6d; */
 }
 
 .main-grid-container img {

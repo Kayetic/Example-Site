@@ -27,7 +27,7 @@ nav {
   padding: 0 3rem;
   /* background-color: #fef9f3; */
   background-color: #dee8d5;
-  border-bottom: 4px solid black;
+  /* outline: 4px solid black; */
 }
 
 ul {
@@ -67,39 +67,39 @@ ul li {
 }
 
 .main-container {
-  display: flex;
-  height: 900px;
+  /* display: flex; */
+  height: 90vh;
 }
 
 .left-section {
+  display: flex;
   border-right: 4px solid black;
   width: 65%;
   background-color: #ac92a6;
-  height: 100%;
+  /* height: 100%; */
   font-family: Melody-Medium;
   font-weight: 900;
   letter-spacing: 0.6px;
   font-size: 130px;
   line-height: 220px;
-  display: flex;
   flex-direction: column;
   /* padding-top: 440px; */
   padding-bottom: 30px;
   padding-left: 30px;
 }
 
-.left-section h1 {
-  align-self: flex-end !important;
-  justify-self: flex-end;
-  /* text-align: end; */
-}
 .right-section {
-  background-color: #dee8d5;
   display: flex;
+  background-color: #dee8d5;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 50%;
+}
+.left-section h1 {
+  align-self: flex-end !important;
+  justify-self: flex-end;
+  /* text-align: end; */
 }
 
 .right-section img {
