@@ -83,17 +83,16 @@ ul li {
   line-height: 220px;
   display: flex;
   flex-direction: column;
-  padding-top: 440px;
+  /* padding-top: 440px; */
   padding-bottom: 30px;
   padding-left: 30px;
 }
 
 .left-section h1 {
-  align-self: flex-end;
+  align-self: flex-end !important;
   justify-self: flex-end;
   /* text-align: end; */
 }
-
 .right-section {
   background-color: #dee8d5;
   display: flex;
