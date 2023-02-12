@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("/experimental/responsiveness/fonts/satoshi/css/satoshi.css");
 
 @font-face {
   font-family: Melody-Medium;
@@ -10,16 +11,16 @@
   src: url(fonts/HKGroteskWide-Black.otf);
 }
 
-/* When the browser is at least 600px and above */
+/* When the browser is at least 1200px and above */
 @media screen and (min-width: 1200px) {
   html {
     font-size: 16px;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   html {
-    font-size: 8px;
+    font-size: 12px;
   }
 }
 
@@ -29,76 +30,81 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+}
+
 nav {
   display: flex;
+  font-size: 1rem;
+  color: wheat;
   justify-content: space-between;
   /* font-family: Melody-Medium; */
-  font-family: "Poppins", sans-serif;
+  font-family: "Satoshi-Bold";
+  letter-spacing: 2px;
   height: 10vh;
   align-items: center;
-  padding: 0 3rem;
+  padding: 0 9rem;
   /* background-color: #fef9f3; */
-  background-color: #b2b2a8;
+  /* background-color: #b2b2a8; */
   /* outline: 4px solid black; */
 }
 
-ul {
+.first-row {
   display: flex;
-  list-style: none;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  margin: 0 9rem;
+  border-bottom: 1px grey solid;
 }
 
-.search {
-  font-size: 40px;
+.first-row h1 {
+  color: whitesmoke;
+  font-family: "Satoshi-Bold";
+  /* font-size: 256px; */
+  font-size: 16rem;
 }
 
-ul li {
-  margin: 0 25px;
-  font-size: 16px;
+.second-row {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  /* justify-content: flex-end; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 40vh;
+  margin: 0 9rem;
 }
 
-.logo {
-  font-family: Melody-Medium;
-  font-weight: 900;
-  letter-spacing: 0.2px;
-  font-size: 40px;
+.title-links h1 {
+  color: wheat;
+  font-family: "Satoshi-Bold";
+  /* font-size: 128px; */
+  font-size: 8rem;
 }
 
-.search {
-  font-size: 25px;
+.second-row h3 {
+  color: rgb(245, 239, 227);
+  /* font-size: 64px; */
+  font-size: 4rem;
+  font-family: "Satoshi-Regular";
 }
 
-.search i {
-  margin-right: 12px;
+.title-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-links button {
+  font-family: "Satoshi-Bold";
+  height: fit-content;
   font-size: 18px;
-}
-
-.main-grid-container {
-  display: grid;
-  grid-template-columns: 65% 1fr;
-  height: 90vh;
-}
-
-.left-section {
-  display: flex;
-  background-color: #c1c0b6;
-}
-
-.right-section {
-  display: flex;
-}
-
-.left-section h1 {
-  /* font-family: Melody-Medium; */
-  /* font-family: HKGrotesk; */
-  font-family: "Poppins", sans-serif;
-  margin-left: 2rem;
-  font-size: 12rem;
-  align-self: flex-end;
-  /* color: #932f6d; */
-}
-
-.main-grid-container img {
-  width: 24rem;
-  align-self: center;
-  justify-self: center;
+  margin-top: 1.5rem;
+  /* align-self: center; */
+  padding: 12px 24px;
+  border-radius: 16px;
+  background-color: black;
+  color: wheat;
+  outline: 2px solid wheat;
 }
