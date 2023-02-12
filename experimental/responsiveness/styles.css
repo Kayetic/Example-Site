@@ -37,11 +37,12 @@ body {
 nav {
   display: flex;
   font-size: 1rem;
-  color: wheat;
+  /* color: rgba(245, 222, 179, 0.6); */
+  color: rgba(141, 139, 134, 0.6);
   justify-content: space-between;
   /* font-family: Melody-Medium; */
   font-family: "Satoshi-Bold";
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   height: 10vh;
   align-items: center;
   padding: 0 9rem;
