@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+/* font-family: 'Playfair Display', serif; */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 /* font-family: "Poppins", sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
@@ -7,34 +8,56 @@
 /* font-family: 'Rubik', sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 /* font-family: 'Montserrat', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+/* font-family: 'Libre Baskerville', serif; */
 * {
   margin: 0;
   padding: 0;
 }
 
-.table-responsive {
-  min-height: 0.01%;
-  overflow-x: auto;
+.container {
+  margin: 2rem 2rem;
 }
 
-div {
-  display: block;
+.container2 {
+  margin: 6rem 2rem;
 }
 
-body {
-  background: #fff;
-  font-weight: 400;
-  position: relative;
-  font-size: 14px;
-  font-family: montserrat, sans-serif;
+h1 {
+  font-size: 112px;
 }
 
-table {
-  border-spacing: 10px 0;
+h2 {
+  font-size: 96px;
 }
 
-th {
-  font-size: 20px;
+h3 {
+  font-size: 56px;
+}
+
+p {
+  font-size: 32px;
+}
+
+.container h1,
+.container h2 {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container h3 {
   font-family: "Montserrat", sans-serif;
-  margin: 10px;
+}
+
+.container p {
+  font-family: "Rubik", sans-serif;
+}
+
+.container2 h1 {
+  font-family: "Playfair Display", serif;
+}
+
+.container2 p,
+.container2 h2 {
+  font-family: "Libre Baskerville", serif;
 }
