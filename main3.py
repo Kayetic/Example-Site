@@ -1,15 +1,17 @@
-def fibonacci(n):
-    if n == 0:
-        return 0
-    if n == 1:
-        return 1
-    a = 0
-    b = 0
-    for i in range(2, n+1):
-        c = a + b
-        a = b
-        b = c
-    return c
+# Import the openai module
+import openai
 
+# Set your API key
+openai.api_key = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
-print(fibonacci(10))
+# Create a chat completion object with your prompt
+chat = openai.ChatCompletion.create(
+    model="gpt-3.5-turbo",
+    messages=[
+        # {"role": "system", "content": "You are a computer science expert."},
+        {"role": "user", "content": "What is a CPU?"}
+    ]
+)
+
+# Print the assistant's reply
+print(chat["choices"][0]["message"]["content"])
