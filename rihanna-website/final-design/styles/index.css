@@ -240,7 +240,7 @@ a {
   grid-row: 3 / -1;
 }
 
-/* @media screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   body {
     background-color: blue !important;
   }
@@ -250,4 +250,12 @@ a {
   .first-line {
     font-size: 120px;
   }
-} */
+  .entire-grid-container {
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .navbar-container {
+    display: none;
+  }
+}
