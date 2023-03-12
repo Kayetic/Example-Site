@@ -1,3 +1,4 @@
+Response 1:
 A CPU (Central Processing Unit) is the brain of a computer, responsible for executing instructions and carrying out computations. It retrieves data from memory or storage devices, performs calculations on that data according to specific instructions provided by software programs, and then stores the results back in memory.
 
 The speed of a CPU is affected by several factors. The clock speed, measured in gigahertz (GHz), determines how many cycles per second the processor can execute. A higher clock speed means more instructions are executed per unit time leading to faster computation.
@@ -6,7 +7,10 @@ Another factor affecting the CPU's performance is its number of cores - multiple
 
 Cache size also plays an important role since it provides quick access to frequently used information without requiring constant trips back-and-forth from RAM which reduces latency issues.
 
-Finally, architectural optimizations such as instruction sets- specialized operations that CPUs handle efficiently- play their own part too ensuring more efficient code execution with minimal overheads improving overall system performanceA CPU, or Central Processing Unit, is the part of a computer that performs most of the processing tasks. It acts as the "brain" of your computer and is responsible for executing instructions from software applications.
+Finally, architectural optimizations such as instruction sets- specialized operations that CPUs handle efficiently- play their own part too ensuring more efficient code execution with minimal overheads improving overall system performance
+
+Response 2:
+A CPU, or Central Processing Unit, is the part of a computer that performs most of the processing tasks. It acts as the "brain" of your computer and is responsible for executing instructions from software applications.
 
 The speed at which a CPU can perform these tasks depends on several factors:
 
@@ -20,7 +24,10 @@ The speed at which a CPU can perform these tasks depends on several factors:
 
 5.Thermal Design Power(TDP): TDP indicates how much heat needs dissipation by cooling mechanisms while operating continuously under full load(100% utilization).
 
-By understanding these factors you'll know what kind machine configuration will give expected performance based upon user workload requirements i.e., whether he/she wants to game with high fps rates/develop apps/render videos etc..Sure thing! A CPU, or central processing unit, is the "brain" of a computer. It's responsible for carrying out instructions that tell your computer what to do. When you open an application or run a program on your computer, those instructions are sent to the CPU which processes them and carries out the necessary tasks.
+By understanding these factors you'll know what kind machine configuration will give expected performance based upon user workload requirements i.e., whether he/she wants to game with high fps rates/develop apps/render videos etc..
+
+Response 3:
+Sure thing! A CPU, or central processing unit, is the "brain" of a computer. It's responsible for carrying out instructions that tell your computer what to do. When you open an application or run a program on your computer, those instructions are sent to the CPU which processes them and carries out the necessary tasks.
 
 The speed at which a CPU can process these instructions depends on several factors including clock speed (measured in GHz), number of cores (which allow for parallel processing), cache size (temporary memory used by the processor), and architecture (the design of how information flows through the processor).
 

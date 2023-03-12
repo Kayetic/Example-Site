@@ -2,7 +2,7 @@
 import openai
 
 # Set your API key
-openai.api_key = "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"
+openai.api_key = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 user_message = input("You: ")
 # Create a chat completion object with your prompt
@@ -36,7 +36,9 @@ with open("response3.txt", "w") as f:
 # load those three files into a new chat request with the same paramters but with the user's prompt as: "Condense these three responses into one response that is the best of the three responses." and then print the response.
 
 # condense the three variabeles into one variable that contains the three responses
-one_response = chat["choices"][0]["message"]["content"] + chat["choices"][1]["message"]["content"] + chat["choices"][2]["message"]["content"]
+one_response = chat["choices"][0]["message"]["content"] + \
+    chat["choices"][1]["message"]["content"] + \
+    chat["choices"][2]["message"]["content"]
 print(one_response)
 
 # Create a chat completion object with your prompt
