@@ -6,7 +6,7 @@ result = model.transcribe("audio.mp3")
 print(result["text"])
 
 
-with open("transcription.txt", "w") as f:
+with open("transcription-polska.txt", "w") as f:
     f.write(result["text"])
     f.close()
 
