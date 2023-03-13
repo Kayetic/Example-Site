@@ -240,17 +240,43 @@ a {
   grid-row: 3 / -1;
 }
 
+/* TABLETS */
 @media (min-width: 767px) and (max-width: 1444px) {
-  nav,
+  /* nav,
   nav *,
   .entire-grid-container *,
   .navbar-container,
   .entire-grid-container,
   .responsive-container-phone {
     display: none;
+  } */
+  .responsive-container-phone,
+  .placeholder-section {
+    display: none;
+  }
+  .top-image {
+    display: none;
+  }
+  .nav-links-container {
+    gap: 55px;
+  }
+  body {
+    overflow: auto;
+  }
+  .entire-grid-container {
+    margin-top: 100px;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .first-line {
+    font-size: 110px;
+  }
+  .navbar-container {
+    /* top | right | bottom | left */
+    margin: 40px 50px 85px 65px;
   }
 }
 
+/* PHONES */
 @media screen and (max-width: 767px) {
   nav,
   nav *,
