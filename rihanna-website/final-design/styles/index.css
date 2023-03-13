@@ -240,22 +240,24 @@ a {
   grid-row: 3 / -1;
 }
 
-@media screen and (max-width: 1440px) {
-  body {
-    background-color: blue !important;
-  }
-  .top-image {
+@media (min-width: 767px) and (max-width: 1444px) {
+  nav,
+  nav *,
+  .entire-grid-container *,
+  .navbar-container,
+  .entire-grid-container,
+  .responsive-container-phone {
     display: none;
   }
-  .first-line {
-    font-size: 120px;
-  }
-  .entire-grid-container {
-    display: block;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  .navbar-container {
+}
+
+@media screen and (max-width: 767px) {
+  nav,
+  nav *,
+  .entire-grid-container *,
+  .navbar-container,
+  .entire-grid-container,
+  .responsive-container-tablet {
     display: none;
   }
 }
