@@ -286,4 +286,37 @@ a {
   .responsive-container-tablet {
     display: none;
   }
+  a,
+  a:visited {
+    color: white;
+  }
+
+  .mobile-pages-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 1.5rem;
+    padding: 1rem 2rem;
+    background-color: rgba(74, 19, 45, 0.8);
+    border-radius: 5px;
+  }
+  .mobile-nav-link {
+    font-size: 24px;
+  }
+  .mobile-new-release {
+    margin: 6rem 0 0 2rem;
+  }
+  .mobile-icons-line {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+  #testing1 {
+    display: inline;
+    font-size: 30px;
+    padding: 0;
+    background-color: rgb(105, 26, 63);
+    color: whitesmoke;
+    padding: 8px 13px 13px 13px;
+    font-family: "Lexend Deca", sans-serif;
+  }
 }
