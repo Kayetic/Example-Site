@@ -7,7 +7,7 @@ openai.api_key = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 user_message = input("You: ")
 # Create a chat completion object with your prompt
 chat = openai.ChatCompletion.create(
-    model="gpt-3.5-turbo",
+    model="gpt-4",
     messages=[
         {"role": "system", "content": "You are a computer science expert that writes in a fairly human-sounding fashion."},
         {"role": "user", "content": f"{user_message}"}
@@ -18,6 +18,9 @@ chat = openai.ChatCompletion.create(
     frequency_penalty=1.73,
     presence_penalty=0.89
 )
+
+# print the assistant's reply
+
 
 # Print the assistant's reply
 # print(chat["choices"][0]["message"]["content"])
