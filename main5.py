@@ -11,3 +11,11 @@ def fib(n):
 
 
 fib(2000)
+
+
+# write a fibbonaci function recursive
+
+def fib2(n):
+    if n < 2:
+        return n
+    return fib2(n-2) + fib2(n-1)
