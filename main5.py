@@ -1,4 +1,11 @@
 import pyautogui
 import time
 
-# write me a pyautogui script that will press the down arrow 25 times with a delay of 0.2 seconds between each press and delay of 3 seconds between each set of 25 presses
+pyautogui.PAUSE = 0.2
+pyautogui.FAILSAFE = True
+
+for i in range(1, 26):
+    pyautogui.press('down')
+    if i == 25:
+        time.sleep(3)
+        i = 0
