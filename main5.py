@@ -8,3 +8,6 @@ def fib(n):
         print(a, end=' ')
         a, b = b, a+b
     print()
+
+
+fib(2000)
