@@ -32,3 +32,6 @@ def fib3(n, memo={}):
     if n not in memo:
         memo[n] = fib3(n-2, memo) + fib3(n-1, memo)
     return memo[n]
+
+
+print(fib3(10))
