@@ -6,7 +6,7 @@
     {
       "label": "run oc command",
       "type": "shell",
-      "command": "(echo; echo) | oc",
+      "command": "~/run_oc.sh",
       "group": "build"
     }
   ]
