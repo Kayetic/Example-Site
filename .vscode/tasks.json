@@ -6,7 +6,7 @@
     {
       "label": "run oc command",
       "type": "shell",
-      "command": "oc",
+      "command": "(echo; echo) | oc",
       "group": "build"
     }
   ]
