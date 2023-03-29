@@ -35,3 +35,6 @@ def fib3(n, memo={}):
 
 
 print(fib3(10))
+
+
+# write a fibbonaci function recursive with memoization and lru_cache
