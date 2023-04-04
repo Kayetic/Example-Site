@@ -42,7 +42,7 @@
 .animated {
   display: inline-block;
   /* Add transition for smooth hover effect */
-  transition: all 0.3s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 
 .animated:hover {
