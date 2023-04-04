@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Mono", "Consolas", "SF Mono", monospace;
+}
+
+.first-line {
+  font-size: 2rem;
+}
+
+.second-line {
+  font-size: 1.5rem;
+}
+
+.text-container {
+  justify-content: center;
+  align-items: center;
+}
