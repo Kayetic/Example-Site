@@ -8,14 +8,44 @@
 }
 
 .first-line {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
 }
 
 .second-line {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .text-container {
+  height: 100vh;
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+/* Define keyframes for the pulse animation */
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: scale(1.1);
+    animation-timing-function: ease-in;
+  }
+}
+
+/* Apply the pulse for hover on p tag */
+.animated {
+  display: inline-block;
+  /* Add transition for smooth hover effect */
+  transition: all 0.3s ease-in-out;
+}
+
+.animated:hover {
+  /* Apply the pulse keyframes animation */
+  animation: pulse 0.6s linear infinite;
 }
