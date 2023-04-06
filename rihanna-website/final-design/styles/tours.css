@@ -227,4 +227,15 @@ a {
     gap: 1rem;
     margin: 2rem 0.2rem 0.5rem 0rem;
   }
+  .mobile-title {
+    margin: 1.25rem 0rem 0rem 1.5rem;
+    width: 50vw;
+    font-family: "Lexend Deca", sans-serif;
+  }
+  .mobile-table-container {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 20px;
+  }
 }
