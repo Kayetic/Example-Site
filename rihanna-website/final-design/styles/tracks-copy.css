@@ -14,13 +14,6 @@ body {
   background-color: rgba(229, 209, 236, 0.1);
 }
 
-@media screen and (min-width: 768px) {
-  .responsive-container-phone,
-  .mobile-pages-bar {
-    display: none;
-  }
-}
-
 .navbar-container {
   /* background-color: green; */
   display: flex;
@@ -175,6 +168,13 @@ a {
   color: #691a3f;
 }
 
+/* DESKTOP */
+@media screen and (min-width: 768px) {
+  .responsive-container-phone {
+    display: none !important;
+  }
+}
+
 /* PHONES */
 @media screen and (max-width: 767px) {
   .main-container,
@@ -233,12 +233,5 @@ a {
 
   .small-embeds-container {
     margin: 2rem 2.5rem 0 2.5rem;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .responsive-container-phone,
-  .mobile-pages-bar {
-    display: none;
   }
 }
