@@ -13,6 +13,18 @@
     <script src="scripts/tours.js"></script>
   </head>
   <body>
+    <script>
+      function redirectToMobilePage() {
+        const mobileScreenWidth = 767;
+        const isMobileDevice = window.innerWidth <= mobileScreenWidth;
+        const mobileURL = "/rihanna-website/final-design/mobile/tours-mobile.html"; // Replace this with the URL of the mobile version of your page 
+    
+        if (isMobileDevice) {
+          window.location.href = mobileURL;
+        }
+      }
+      redirectToMobilePage();
+    </script>
     <nav>
       <div class="navbar-container">
         <div class="title-container">
@@ -125,5 +137,6 @@
         <p>Nov 27, 2016</p>
         <p>Solo performace at <strong>Yas Marina Circuit, Abu Dhabi, UAE</strong></p>
       </div>
+      
   </body>
 </html>
