@@ -174,6 +174,13 @@ a {
   }
 }
 
+/* DESKTOP */
+@media screen and (min-width: 768px) {
+  .responsive-container-phone {
+    display: none !important;
+  }
+}
+
 /* PHONES */
 @media screen and (max-width: 767px) {
   .main-container,
