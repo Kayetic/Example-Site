@@ -21,8 +21,8 @@
 #       'and the last name', y, 'is', z, 'years old.')
 
 ### taking inputs ###
+# age = input('how old are you?')
+# print out: you are AGE years old
+# print('you are', age, 'years old')
 
-# print('who is your favourite dilf?')
-# input('who is your favourite dilf? ')
-n = input('who is your favourite dilf? ')
-print('you like', n[::-1])
+### type conversions ###
