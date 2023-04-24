@@ -26,3 +26,5 @@
 # print('you are', age, 'years old')
 
 ### type conversions ###
+weight = input('how much do you weigh in pounds?')
+print('the weight in kg is', int(weight)*0.45, 'kg')
