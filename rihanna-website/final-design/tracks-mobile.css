@@ -31,15 +31,6 @@
   gap: 1rem;
   margin: 2rem 0.2rem 0.5rem 0rem;
 }
-#testing1 {
-  display: inline;
-  font-size: 40px;
-  padding: 0;
-  background-color: rgb(105, 26, 63);
-  color: whitesmoke;
-  padding: 8px 13px 13px 13px;
-  font-family: "Lexend Deca", sans-serif;
-}
 
 .fa-brands {
   color: black;
@@ -55,7 +46,7 @@
 }
 
 .small-embeds-container {
-  margin: 2rem 50px;
+  margin: 2rem 2.5rem 0 2.5rem;
 }
 
 .mobile-pages-bar * {
