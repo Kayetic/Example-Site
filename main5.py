@@ -20,9 +20,11 @@
 # print('the patient with the first name', x,
 #       'and the last name', y, 'is', z, 'years old.')
 
-### taking inputs ###
+# ## taking inputs ###
+# age = input('how old are you?')
+# print out: you are AGE years old
+# print('you are', age, 'years old')
 
-# print('who is your favourite dilf?')
-# input('who is your favourite dilf? ')
-n = input('who is your favourite dilf? ')
-print('you like', n[::-1])
+### type conversions ###
+weight = input('how much do you weigh in pounds?')
+print('the weight in kg is', int(weight)*0.45, 'kg')
