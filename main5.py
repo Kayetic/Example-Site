@@ -20,7 +20,7 @@
 # print('the patient with the first name', x,
 #       'and the last name', y, 'is', z, 'years old.')
 
-### taking inputs ###
+# ## taking inputs ###
 # age = input('how old are you?')
 # print out: you are AGE years old
 # print('you are', age, 'years old')
