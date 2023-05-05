@@ -1,5 +1,3 @@
-# import datetime
-# import time
 # n = 10.5
 # n = '10'
 # x = 'hello'
@@ -26,5 +24,26 @@
 # print('you are', age, 'years old')
 
 ### type conversions ###
-weight = input('how much do you weigh in pounds?')
-print('the weight in kg is', int(weight)*0.45, 'kg')
+# f = '6'
+# print(type(int(f)))
+
+### strings ###
+# x = """katy's
+# "little"
+# bag"""
+# print(x)
+
+# hot = 'sebastian stan'
+# print(hot[:5])
+
+# item = """katy's "little" bag"""
+# print(item[6:15])
+
+firstName = 'David'
+lastName = 'teninch'
+hotness = 'dilf'
+
+print(
+    f'The patient with the first name {firstName} and the last name {lastName} is a {hotness}. He is a {6*98} out of 10')
+ingredient1 = 'lettuce'
+ingredient2 = 'tomato'
