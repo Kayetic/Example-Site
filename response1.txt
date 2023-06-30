@@ -1,9 +1,0 @@
-A CPU (Central Processing Unit) is the brain of a computer, responsible for executing instructions and carrying out computations. It retrieves data from memory or storage devices, performs calculations on that data according to specific instructions provided by software programs, and then stores the results back in memory.
-
-The speed of a CPU is affected by several factors. The clock speed, measured in gigahertz (GHz), determines how many cycles per second the processor can execute. A higher clock speed means more instructions are executed per unit time leading to faster computation.
-
-Another factor affecting the CPU's performance is its number of cores - multiple processing units within one physical package which allow it to perform multiple tasks simultaneously or divide heavy loads between them resulting in better multitasking capabilities.
-
-Cache size also plays an important role since it provides quick access to frequently used information without requiring constant trips back-and-forth from RAM which reduces latency issues.
-
-Finally, architectural optimizations such as instruction sets- specialized operations that CPUs handle efficiently- play their own part too ensuring more efficient code execution with minimal overheads improving overall system performance
